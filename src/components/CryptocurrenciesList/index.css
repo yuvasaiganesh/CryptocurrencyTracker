@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+
+.heading1 {
+  font-size: 40px;
+  color: #00e7ff;
+  align-self: center;
+}
+.cryptoImage {
+  width: 100%;
+  height: 250px;
+  align-self: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+ul {
+  width: 100%;
+  border: 5px solid #00e7ff;
+}
+
+.listHeader {
+  background-color: #092e33;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+.usdSection {
+  display: flex;
+  justify-content: space-between;
+  width: 18%;
+}
+.type {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+}

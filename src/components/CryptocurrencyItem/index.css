@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.listSection {
+  display: flex;
+  background-color: transparent;
+  background-size: cover;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+}
+
+.imageSection {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+.valueSection {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+.name {
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+.currencyLogo {
+  height: 30px;
+  width: 30px;
+}
